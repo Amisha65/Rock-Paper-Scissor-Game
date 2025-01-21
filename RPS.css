@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+    /* background-color:rgb(74, 66, 66); */
+}
+
+h1{
+    background-color: #081b31;
+    color:aliceblue;
+    height:5rem;
+    line-height:5rem;  /*vertically align Center */
+}
+
+.choice{
+    height: 230px;
+    width:230px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50% ;
+}
+
+.choice:hover{
+    opacity:0.5;
+    cursor: pointer;
+    /* background-color:black; */
+}
+
+img{
+    height: 200px;
+    width:200px;
+    object-fit:cover;   /*img then not show like contract*/
+    border-radius: 100% ;
+}
+
+.choi{
+    display:flex;  /*to do all images in horizonatal line */
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top:7rem;
+}
+
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2rem;
+    gap:5rem;
+    margin-top:4rem;
+}
+
+.mgs_container{
+    margin-top:5rem;
+}
+
+#mes{
+    background-color: black;
+    color:#fff;
+    display:inline;
+    font-size:2rem;
+    padding:1rem;
+    border-radius:1rem;
+}
